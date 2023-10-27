@@ -1,0 +1,145 @@
+/* Your styles here */
+html{
+    background-color: white;
+    background-size: cover;
+
+}
+
+body{
+    line-height: 1.65;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+/* HEADER*/
+
+header{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    padding:1.2rem;
+}
+
+header img{
+    width: 30%;
+}
+
+/*MAIN*/
+
+main{
+    text-align: center;
+    }
+
+main article div p {
+        margin: 6%;
+        color:#393d41 ;
+    }
+
+.inizio{
+    background-image:url("../img/banner.jpg");
+    background-size:cover;
+    text-align: center ;
+
+}
+
+h1, h3{
+    font-weight: bold;
+    color:#25a2c3; 
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+h1+p{
+    color:#393d41; 
+}
+
+button{
+    color:white;
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 17px;
+    border-radius: 10%;
+    margin:3%;
+
+}
+
+.laptop{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 3px;
+        margin-bottom: 15px;
+        background-size: cover;
+        text-align: center;
+}
+
+section{
+    background-color: #f04c2f;
+    color:white;
+    padding:1.2rem;
+
+}
+
+section p:first-of-type{
+    margin: 6%;
+    font-style: italic;
+}
+
+section p:last-of-type{
+    font-size: 11pt;  
+}
+
+h2{
+    color: white;
+    margin-bottom: 1em;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+
+}
+
+/*Aside*/
+aside div {
+    color:#393d41 ;
+    font-size: 13pt ;
+    background-color: white;
+    border: 1px solid rgb(236, 233, 233);
+    margin: 2em;
+    background-position: center;
+    background-size: contain;
+    padding:1.2rem;
+}
+
+aside img{
+    width:100%;
+
+}
+
+/*FOOTER*/
+footer{
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    font-family:'Open Sans', sans-serif;
+    padding: 1rem;
+    
+}
+
+footer nav ul li {
+    list-style: none;
+}
+
+hr{
+    margin-left: 25%;
+    margin-right: 25%;
+    background: white;
+    color: white;
+}
+ footer a{
+    color:#c8e7f0;
+ }
